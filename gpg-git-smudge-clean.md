@@ -12,7 +12,7 @@ Once gpg key in keyring we can encrypt and decrypt files.
 TODO: create second user and add their public key to keyring to use it for encryption
 
 
-Update `.git/config` to clean files when they're added to staging by encrypting them and to smudge them by decrypting (see figures 7.2 and 7.3 from http://git-scm.com/book/ch7-2.html):
+Update `.git/config` to clean files when they're added to staging by encrypting them and to smudge them by decrypting (see figures 7.2 and 7.3 from http://git-scm.com/book/ch7-2.html ):
 
 ```
 [filter "gpg"]
